@@ -1,0 +1,51 @@
+%helvetica-font{
+    font-family: 'Helvetica', 'Arial', sans-serif !important;
+}
+
+%montserrat-font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-text{
+    @extend %helvetica-font;
+}
+
+.main-font{
+    @extend %helvetica-font;
+}
+
+.secondary-font{
+    @extend %montserrat-font;
+}
+
+.greeting-text{
+    @extend %helvetica-font;
+    font-size: 25px;
+    font-weight: 400;
+    
+    span{
+        color: $aqua;
+    }
+}
+
+
+
+@for $i from 1 through 100{
+    .text-#{$i}{
+        font-size: #{$i}px;
+    }
+}
+
+$weights: 100, 200, 300, 400, 500, 600, 700, 800;
+
+@each $weight in $weights{
+    .font-#{$weight}{
+        font-weight: #{$weight};
+    }
+}
+
+@each $name, $color in $colors{
+    .font-#{$name}{
+        color: $color;
+    }
+}

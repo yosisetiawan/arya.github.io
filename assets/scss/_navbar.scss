@@ -1,0 +1,28 @@
+._navbar-custom{
+    margin-left: 140px;
+    margin-right: 140px;
+
+    .navbar-brand{
+        font-family: 'Helvetica', 'Arial', sans-serif !important;
+        font-size: 22px;
+        color: $black;
+        font-weight: normal;
+
+        span{
+            color: $aqua;
+        }
+    }
+
+    .navbar-nav{
+        .nav-item{
+            a.nav-link{
+                font-family: 'Helvetica', 'Arial', sans-serif !important;
+                font-weight: bold;
+                color: $black;
+                font-size: 18px;
+            }
+
+            margin-right: 40px;
+        }
+    }
+}

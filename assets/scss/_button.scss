@@ -1,0 +1,24 @@
+._btn-primary{
+    background-color: $black !important;
+    border: unset;
+    border-radius: 28px;
+    color: $yellow;
+    // margin-left: 40px;
+    // border: unset;
+    // color: $yellow;
+    font-size: 18px;
+    // padding: 19px 30px;
+    // border-radius: 28px;
+    // height: 56px;
+    // width: 213px;
+}
+
+.__btn-primary{
+    background-color: $black !important;
+    color: $yellow;
+    border-radius: 10px;
+    border: unset;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 23px;
+}

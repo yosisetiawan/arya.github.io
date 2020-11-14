@@ -1,0 +1,14 @@
+$direction-schemes:(
+    'b': 'bottom',
+    't': 'top',
+    'l': 'left',
+    'r': 'right'
+);
+
+@for $size from 1 through 100{
+    @each $type, $name in $direction-schemes{
+        .m#{$type}-#{$size}{
+            margin-#{$name}: #{$size}px;
+        }
+    }
+}
