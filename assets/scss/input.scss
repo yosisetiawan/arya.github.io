@@ -1,0 +1,22 @@
+
+
+.form-group-custom.form-group{
+    label{
+        font-size: 14px;
+        color: #f7f72f;
+        position: absolute;
+        background-color: #383838;
+        margin-top: -11px;
+        margin-left: 12px;
+    }
+
+    .form-control{
+        background-color: transparent !important;
+        border: solid 1px #707070 !important;
+        color: #ffffff;
+        &:focus{
+            border: solid 1px #707070;
+            box-shadow: unset !important;
+        }
+    }
+}

@@ -21,4 +21,9 @@
     font-weight: 700;
     font-size: 15px;
     padding: 20px 23px;
+
+    &.btn-yellow{
+        background-color: $yellow !important;
+        color: $black !important;
+    }
 }

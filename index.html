@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/neue-helvetica" rel="stylesheet">
     <!-- JS Support -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- Maps -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4iq_mWr8XaNtee83R59VTAWr70Z3Dhn0&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
     <!-- Custom Style -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -74,55 +80,301 @@
         </div>
     </section>
     <!-- End About -->
+    <!-- Resume -->
     <section class="__container-about">
         <div class="row">
             <div class="col-3 d-flex justify-content-center align-items-center __body-section-about">
                 RESUME
             </div>
+            <!-- Education -->
             <div class="col-9 __container-education">
-                <div class="secondary-font font-700 text-35">
-                    EDUCATION
-                </div>
-                <div class="secondary-font font-700 text-20 font-aqua">
-                    STUDIED AT
-                </div>
-                <div class="__about-list-items mt-70">
-                    <div class="__about-items">
-                        <div class="secondary-font text-22 font-700 font-white">
-                            Lorem Ipsum Sir
+                <div class="__main-education-content">
+                    <div class="secondary-font font-700 text-35">
+                        EDUCATION
+                    </div>
+                    <div class="secondary-font font-700 text-20 font-aqua">
+                        STUDIED AT
+                    </div>
+                    <div class="__about-list-items mt-70">
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Build With Angga
+                            </div>
+                            <div class="text-20 secondary-font font-aqua font-400">
+                                2020-Present
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,
+                            </div>
                         </div>
-                        <div class="text-20 secondary-font font-aqua font-700">
-                            2020-Present
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                SMK AL-BAHRI
+                            </div>
+                            <div class="text-20 secondary-font font-aqua font-400">
+                                2016-2019
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,
+                            </div>
                         </div>
-                        <div class="__items-content">
-                            lorem ipsum ris
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                SMPN 9 Bekasi
+                            </div>
+                            <div class="text-20 secondary-font font-aqua font-400">
+                                2013-2016
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,    
+                            </div>
+                        </div>
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                SDN JATIASIH 6
+                            </div>
+                            <div class="text-20 secondary-font font-aqua font-400">
+                                2006-2012
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,    
+                            </div>
                         </div>
                     </div>
-                    <div class="__about-items">
-                        <div class="secondary-font text-22 font-700 font-white">
-                            Lorem Ipsum Sir
+                </div>
+                <!-- End Education -->
+                <!-- Career -->
+                <div class="__main-education-content">
+                    <div class="secondary-font font-700 text-35">
+                        CAREERS
+                    </div>
+                    <div class="secondary-font font-700 text-20 font-aqua">
+                        WORKING WITH
+                    </div>
+                    <div class="__about-list-items mt-70">
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Lorem Ipsum Sir
+                            </div>
+                            <div class="text-20 secondary-font font-aqua font-700">
+                                2020-Present
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,
+                            </div>
                         </div>
-                        <div class="text-20 secondary-font font-aqua font-700">
-                            2020-Present
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Lorem Ipsum Sir
+                            </div>
+                            <div class="text-20 secondary-font font-aqua font-700">
+                                2020-Present
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,
+                            </div>
                         </div>
-                        <div class="__items-content">
-                            lorem ipsum ris
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Lorem Ipsum Sir
+                            </div>
+                            <div class="text-20 secondary-font font-aqua font-700">
+                                2020-Present
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,    
+                            </div>
+                        </div>
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Lorem Ipsum Sir
+                            </div>
+                            <div class="text-20 secondary-font font-aqua font-700">
+                                2020-Present
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,    
+                            </div>
                         </div>
                     </div>
-                    <div class="__about-items">
-                        <div class="secondary-font text-22 font-700 font-white">
-                            Lorem Ipsum Sir
+                </div>
+                <!-- End Career -->
+                <!-- Skills Section -->
+                <div class="__main-education-content">
+                    <div class="secondary-font font-700 text-35">
+                        DESIGN SKILLS
+                    </div>
+                    <div class="secondary-font font-700 text-20 font-aqua">
+                        CREATIVE ABILITY
+                    </div>
+                    <div class="__about-list-items mt-70">
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Lorem Ipsum Sir
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,
+                            </div>
+                            <div class="progress-skills">
+                                <div class="text-16 font-400 font-aqua progress-percent">80%</div>
+                                <div class="filled-progress 80-percent"></div>
+                                <!-- <span>LALAL</span> -->
+                            </div>
                         </div>
-                        <div class="text-20 secondary-font font-aqua font-700">
-                            2020-Present
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Lorem Ipsum Sir
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,
+                            </div>
                         </div>
-                        <div class="__items-content">
-                            lorem ipsum ris
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Lorem Ipsum Sir
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,    
+                            </div>
                         </div>
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Lorem Ipsum Sir
+                            </div>
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed hendrerit sodales, turpis turpis laoreet magna, sed tincidunt ipsum lorem quis diam. Sed vestibulum lacus nec mi aliquet, eu fringilla tortor mattis. Nam sed urna rhoncus,    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Skills Section -->
+                <!-- Language Section -->
+                <div class="__main-education-content">
+                    <div class="secondary-font font-700 text-35">
+                        LANGUAGE
+                    </div>
+                    <div class="secondary-font font-700 text-20 font-aqua">
+                        READING AND WRITING
+                    </div>
+                    <div class="__about-list-items mt-70">
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                Indonesia 
+                            </div>
+                            <!-- <div class="text-20 secondary-font font-aqua font-700">
+                                2020-Present
+                            </div> -->
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed
+                            </div>
+                        </div>
+                        <div class="__about-items">
+                            <div class="secondary-font text-22 font-700 font-white">
+                                English
+                            </div>
+                            <!-- <div class="text-20 secondary-font font-aqua font-700">
+                                2020-Present
+                            </div> -->
+                            <div class="__items-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa magna, lobortis sed erat quis, eleifend pharetra ex. Praesent placerat, orci sed
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- End Language-->
+            </div>
+        </div>
+    </section>
+    <!-- End Resume -->
+    <!-- Portofolio -->
+    <section class="__container-custom">
+        <div class="row">
+            <div class="col">
+                <div class="secondary-font text-43 font-700">
+                    MY PORTFOLIO
+                </div>
+                <div class="secondary-font text-20 font-700 font-aqua mb-77">
+                    LATEST WORKS
+                </div>
+                <div class="row mb-20">
+                    <div class="col">
+                        <div class="portofolio-images__container">
+                            <img src="./assets/images/Portfolio-Content/Dribbble-upload-Explore-exploration.png" alt="">
+                        </div>  
+                    </div>
+                    <div class="col">
+                        <div class="portofolio-images__container">
+                            <img src="./assets/images/Portfolio-Content/Dribbble-upload-Bali-Landing-Page-Exploration.png" alt="">
+                        </div>  </div>
+                    <div class="col">
+                        <div class="portofolio-images__container">
+                            <img src="./assets/images/Portfolio-Content/Dribbble-upload-Lay's-Landing-Page-Exploration.png" alt="">
+                        </div>  
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="portofolio-images__container">
+                            <img src="./assets/images/Portfolio-Content/Dribbble-upload-Jenius-revamp-Exploration.png" alt="">
+                        </div>  
+                    </div>
+                    <div class="col">
+                        <div class="portofolio-images__container">
+                            <img src="./assets/images/Portfolio-Content/Dribbble-upload-Summer-Landing-Page-Exploration.png" alt="">
+                        </div>  </div>
+                    <div class="col">
+                        <div class="portofolio-images__container">
+                            <img src="./assets/images/Portfolio-Content/Dribbble-upload-Coloriz.jpg" alt="">
+                        </div>  
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <footer class="__container-footer">
+        <div class="secondary-font text-43 font-700 font-white">
+            Contact
+        </div>
+        <div class="secondary-font text-20 font-700 font-yellow mb-80">
+            LET’S TALK
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="form-group form-group-custom">
+                    <label for="">Full Name *</label>
+                    <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group form-group-custom">
+                    <label for="">Email Address *</label>
+                    <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group form-group-custom">
+                    <label for="">Messages</label>
+                    <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="col-9">
+                <div id="map"></div>
+            </div>
+        </div>
+        <button class="btn btn-primary __btn-primary btn-yellow">Send Messages</button>
+    </footer>
 </body>
+
+<script>
+    function initMap(){
+        const arya_lat = {lat: -6.307118, lng: 106.957573}
+
+        const map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: arya_lat
+        })
+
+        new google.maps.Marker({
+            position: arya_lat,
+            map,
+            title: 'Hello'
+        })
+    }
+</script>
 </html>
