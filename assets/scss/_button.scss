@@ -1,4 +1,5 @@
 ._btn-primary{
+    @extend %helvetica-font;
     background-color: $black !important;
     border: unset;
     border-radius: 28px;
@@ -25,5 +26,10 @@
     &.btn-yellow{
         background-color: $yellow !important;
         color: $black !important;
+    }
+
+    &.small-btn{
+        width: 214px;
+        border-radius: 34px;
     }
 }

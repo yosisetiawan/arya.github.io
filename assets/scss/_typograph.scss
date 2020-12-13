@@ -1,8 +1,23 @@
+@font-face{
+    font-family: 'Helvetica';
+    src: url('./../font/Helvetica.ttf');
+}
+
+@font-face{
+    font-family: 'HelveticaNeue';
+    src: url('./../font/HelveticaNeue.ttf');
+}
+
+
 %helvetica-font{
     // font-family: 'Helvetica', 'Arial', sans-serif !important;
-    font-family: 'Neue Helvetica', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     // font-family: 'Neue Helvetica Outline', sans-serif !important;
 
+}
+
+%helvetica-neue{
+    font-family: 'HelveticaNeue';
 }
 
 %montserrat-font{

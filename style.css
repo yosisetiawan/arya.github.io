@@ -1,5 +1,15 @@
-.main-text, .main-font, .greeting-text {
-  font-family: 'Neue Helvetica', sans-serif !important;
+@font-face {
+  font-family: 'Helvetica';
+  src: url("./../font/Helvetica.ttf");
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("./../font/HelveticaNeue.ttf");
+}
+
+.main-text, .main-font, .greeting-text, ._navbar-custom .navbar-brand, ._navbar-custom .navbar-nav .nav-item a.nav-link, ._btn-primary {
+  font-family: 'Helvetica', sans-serif !important;
 }
 
 .secondary-font, .__body-section-about, .__container-education .__main-education-content .__about-list-items .__about-items .__items-content {
@@ -2064,7 +2074,7 @@
 }
 
 section.__container-custom {
-  padding: 10px 80px;
+  padding: 45px 80px;
 }
 
 section.__container-custom .portofolio-images__container {
@@ -2074,6 +2084,10 @@ section.__container-custom .portofolio-images__container {
 section.__container-custom .portofolio-images__container img {
   width: 100%;
   border-radius: 15px;
+}
+
+section.__container-custom.portofolio {
+  background: linear-gradient(150deg, #ffffff 50%, linear-gradient(to bottom, #d5ea37, #3fc1cc) 50%);
 }
 
 footer.__container-footer {
@@ -2142,404 +2156,428 @@ footer.__container-footer #map {
   height: 4px;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.1-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-1 {
   width: 1% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.2-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-2 {
   width: 2% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.3-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-3 {
   width: 3% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.4-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-4 {
   width: 4% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.5-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-5 {
   width: 5% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.6-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-6 {
   width: 6% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.7-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-7 {
   width: 7% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.8-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-8 {
   width: 8% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.9-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-9 {
   width: 9% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.10-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-10 {
   width: 10% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.11-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-11 {
   width: 11% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.12-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-12 {
   width: 12% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.13-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-13 {
   width: 13% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.14-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-14 {
   width: 14% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.15-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-15 {
   width: 15% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.16-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-16 {
   width: 16% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.17-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-17 {
   width: 17% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.18-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-18 {
   width: 18% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.19-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-19 {
   width: 19% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.20-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-20 {
   width: 20% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.21-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-21 {
   width: 21% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.22-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-22 {
   width: 22% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.23-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-23 {
   width: 23% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.24-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-24 {
   width: 24% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.25-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-25 {
   width: 25% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.26-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-26 {
   width: 26% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.27-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-27 {
   width: 27% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.28-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-28 {
   width: 28% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.29-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-29 {
   width: 29% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.30-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-30 {
   width: 30% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.31-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-31 {
   width: 31% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.32-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-32 {
   width: 32% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.33-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-33 {
   width: 33% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.34-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-34 {
   width: 34% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.35-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-35 {
   width: 35% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.36-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-36 {
   width: 36% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.37-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-37 {
   width: 37% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.38-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-38 {
   width: 38% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.39-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-39 {
   width: 39% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.40-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-40 {
   width: 40% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.41-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-41 {
   width: 41% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.42-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-42 {
   width: 42% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.43-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-43 {
   width: 43% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.44-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-44 {
   width: 44% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.45-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-45 {
   width: 45% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.46-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-46 {
   width: 46% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.47-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-47 {
   width: 47% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.48-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-48 {
   width: 48% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.49-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-49 {
   width: 49% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.50-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-50 {
   width: 50% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.51-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-51 {
   width: 51% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.52-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-52 {
   width: 52% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.53-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-53 {
   width: 53% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.54-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-54 {
   width: 54% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.55-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-55 {
   width: 55% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.56-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-56 {
   width: 56% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.57-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-57 {
   width: 57% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.58-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-58 {
   width: 58% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.59-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-59 {
   width: 59% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.60-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-60 {
   width: 60% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.61-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-61 {
   width: 61% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.62-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-62 {
   width: 62% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.63-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-63 {
   width: 63% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.64-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-64 {
   width: 64% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.65-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-65 {
   width: 65% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.66-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-66 {
   width: 66% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.67-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-67 {
   width: 67% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.68-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-68 {
   width: 68% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.69-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-69 {
   width: 69% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.70-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-70 {
   width: 70% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.71-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-71 {
   width: 71% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.72-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-72 {
   width: 72% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.73-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-73 {
   width: 73% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.74-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-74 {
   width: 74% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.75-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-75 {
   width: 75% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.76-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-76 {
   width: 76% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.77-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-77 {
   width: 77% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.78-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-78 {
   width: 78% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.79-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-79 {
   width: 79% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.80-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-80 {
   width: 80% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.81-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-81 {
   width: 81% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.82-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-82 {
   width: 82% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.83-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-83 {
   width: 83% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.84-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-84 {
   width: 84% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.85-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-85 {
   width: 85% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.86-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-86 {
   width: 86% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.87-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-87 {
   width: 87% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.88-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-88 {
   width: 88% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.89-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-89 {
   width: 89% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.90-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-90 {
   width: 90% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.91-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-91 {
   width: 91% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.92-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-92 {
   width: 92% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.93-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-93 {
   width: 93% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.94-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-94 {
   width: 94% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.95-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-95 {
   width: 95% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.96-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-96 {
   width: 96% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.97-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-97 {
   width: 97% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.98-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-98 {
   width: 98% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.99-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-99 {
   width: 99% !important;
 }
 
-.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.100-percent {
+.__container-education .__main-education-content .__about-list-items .__about-items .progress-skills .filled-progress.percent-100 {
   width: 100% !important;
+}
+
+.__container-education .__main-education-content .__about-list-items .__about-items .circle-progress {
+  height: 15px;
+  width: 15px;
+  background-color: #d6d6d6;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+
+.__container-education .__main-education-content .__about-list-items .__about-items .circle-progress:first-child {
+  margin-left: unset;
+}
+
+.__container-education .__main-education-content .__about-list-items .__about-items .circle-progress.filled {
+  background-color: #50ccc8;
+}
+
+.__container-education .__main-education-content .__about-list-items .__about-items .circle-progress.half {
+  height: 15px;
+  width: 15px;
+  background: #50ccc8;
+  background: -webkit-gradient(linear, left top, right top, color-stop(52%, #50ccc8), color-stop(52%, #d6d6d6));
+  background: linear-gradient(90deg, #50ccc8 52%, #d6d6d6 52%);
 }
 
 section.__container-portofolio {
@@ -2553,7 +2591,7 @@ section.__container-portofolio {
 }
 
 ._navbar-custom .navbar-brand {
-  font-family: 'Neue Helvetica', sans-serif !important;
+  font-weight: 700 !important;
   font-size: 22px;
   color: #383838;
   font-weight: normal;
@@ -2568,8 +2606,7 @@ section.__container-portofolio {
 }
 
 ._navbar-custom .navbar-nav .nav-item a.nav-link {
-  font-family: 'Neue Helvetica', sans-serif !important;
-  font-weight: bold;
+  font-weight: 600;
   color: #383838;
   font-size: 18px;
 }
@@ -2597,6 +2634,11 @@ section.__container-portofolio {
   color: #383838 !important;
 }
 
+.__btn-primary.small-btn {
+  width: 214px;
+  border-radius: 34px;
+}
+
 .images-hero-container .hero-background {
   height: 900px;
 }
@@ -2606,6 +2648,7 @@ section.__container-portofolio {
   color: #f7f72f;
   position: absolute;
   background-color: #383838;
+  padding: 0px 6px;
   margin-top: -11px;
   margin-left: 12px;
 }

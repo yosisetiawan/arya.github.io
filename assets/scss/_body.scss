@@ -1,5 +1,5 @@
 section.__container-custom{
-    padding: 10px 80px;
+    padding: 45px 80px;
 
 
     .portofolio-images__container{
@@ -9,6 +9,15 @@ section.__container-custom{
             width: 100%;
             border-radius: 15px;
         }
+    }
+
+    &.portofolio{
+        background: linear-gradient(150deg, #ffffff 50%, $linearColor 50%) 
+        // $linearColor;
+
+        // background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+        //     linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+        //     linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
     }
 }
 
@@ -80,10 +89,36 @@ footer.__container-footer{
                         height: 4px;
 
                         @for $i from 1 through 100{
-                            &.#{$i}-percent{
+                            &.percent-#{$i}{
                                 width: round(percentage($i/100)) !important;
                             }
                         }
+                    }
+                }
+
+                .circle-progress{
+                    height: 15px;
+                    width: 15px;
+                    background-color: #d6d6d6;
+                    border-radius: 50%;
+                    margin-left: 6px;
+
+                    &:first-child{
+                        margin-left: unset;
+                    }
+
+                    &.filled{
+                        background-color: $aqua;
+                    }
+
+                    &.half{
+                        // position: fixed;
+                        height: 15px;
+                        width: 15px;
+                        // background-color: $aqua;
+                        background: rgb(80,204,200);
+                        background: linear-gradient(90deg, rgba(80,204,200,1) 52%, rgba(214,214,214,1) 52%);
+
                     }
                 }
             }
